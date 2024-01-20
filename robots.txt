@@ -1,0 +1,7 @@
+# robots.txt for https://hairconcierge.me/
+
+User-agent: *
+
+Disallow:
+
+Sitemap: https://hairconcierge.me/sitemap.xml
