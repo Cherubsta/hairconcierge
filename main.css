@@ -1,5 +1,5 @@
 body {
-  color: #353535;
+  color: #5b5b5b;
   font-family: -apple-system, BlinkMacSystemFont, 'Baloo 2', sans-serif;
 }
 
@@ -19,6 +19,12 @@ h3 {
   font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
   font-weight: 800;
   font-size: 24px;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 p {
@@ -70,8 +76,9 @@ ul {
   }
 }
 .navbar-custom {
-  padding-left:10px;
-  opacity: 0.5;
+  padding-left:6px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
 }
 .nav-item {
   margin-left: 30px;
@@ -89,10 +96,10 @@ ul {
 }
 
 .spacing-top-lg {
-  padding-top: 140px;
+  padding-top: 120px;
 }
 .spacing-top {
-  padding-top: 40px;
+  padding-top: 50px;
 }
 .spacing-top-sm {
   padding-top: 20px;
