@@ -29,7 +29,6 @@ h4 {
 
 p {
   font-size: 20px;
-  opacity: .7;
 }
 
 a {
@@ -193,6 +192,10 @@ footer {
   -moz-animation: bounce 3s infinite;
   -webkit-animation: bounce 3s infinite;
   animation: bounce 3s infinite;
+}
+
+.sticky-offset {
+  top: 64px;
 }
 
 @keyframes bounce {
