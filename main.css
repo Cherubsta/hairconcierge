@@ -1,6 +1,6 @@
 body {
   color: #5b5b5b;
-  font-family: -apple-system, BlinkMacSystemFont, 'Baloo 2', sans-serif;
+  font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 h4 {
@@ -27,23 +27,38 @@ h4 {
   font-size: 20px;
 }
 
+h5 {
+  font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
+  font-weight: 600;
+  font-size: 16px;
+}
+
 p {
+  font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
   font-size: 20px;
 }
 
 a {
-  color: #353535;
-  font-size: 1.2rem;
+  color: #7e90fa;
+  font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
+  /* text-decoration: underline; */
+  /* font-size: 1.2rem; */
 }
-a, a:visited, a:hover, a:active {
+a, a:visited, a:hover, a:active, a:focus {
   text-decoration: none;
-  outline: none;
+  outline: none !important;
   /* box-shadow: none; */
 }
 a:hover {
   /* text-decoration: underline; */
   color: #353535;
 }
+.btn:focus, .btn:active:focus, .btn.active:focus { 
+  outline: none !important; 
+  outline-style: none; 
+  box-shadow: none;
+}
+
 ul {
   list-style-type:none;
   padding-left: 0;
@@ -60,9 +75,6 @@ ul {
 
 .font-red {
   color: #FF375F;
-}
-.font-grey {
-  opacity: 0.4;
 }
 .font-gold {
   color: #F29938;
@@ -88,10 +100,6 @@ ul {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
-
-.button-glow:hover {
-  opacity: 0.6;
 }
 
 .spacing-top-lg {
